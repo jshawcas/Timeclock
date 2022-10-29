@@ -17,10 +17,10 @@ username and password information!
                   the install.
               --- $db_name is the mysql database you created during the install. */
 
-$db_hostname = "localhost";
-$db_username = "timeclock";
-$db_password = "clocktime";
-$db_name = "timeclock";
+$db_hostname = "castimeclock-server.mysql.database.azure.com";
+$db_username = "citfwjjugl";
+$db_password = "G0DT1WA724N3567E$";
+$db_name = "castimeclock-database";
 
 
 /* --- RECOMMENDED CHANGES --- */
@@ -179,7 +179,7 @@ $calendar_style = "amer";
                 5) g:iA
                 6) g:ia    */
 
-$timefmt = "g:ia";
+$timefmt = "G:i";
 
 
 /* Display only activity for the the current day instead of the last entry from each user.
@@ -392,7 +392,7 @@ $WxList = array('KTOP|Topeka, Kansas|4|7|NE|');
     
     */
 
-$WxTimeZone = 'America/Chicago'; 
+$WxTimeZone = 'America/New_York'; 
 
 /*  *************************************************************************
     the next two config values are depricated, don't bother to update them. 
